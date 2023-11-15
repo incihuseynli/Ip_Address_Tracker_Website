@@ -52,7 +52,7 @@ function App() {
         }
         zoom={13}
         scrollWheelZoom={true}
-        style={{ height: "800px", width: "100vw", marginTop: "-140px" }}
+        style={{ height: "800px", width: "100vw", marginTop: "-200px" }}
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
