@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Front End Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0/hub)
+- Live Site URL: [Live site](https://ip-address-tracker-website-mu.vercel.app/)
 
 ## My process
 
