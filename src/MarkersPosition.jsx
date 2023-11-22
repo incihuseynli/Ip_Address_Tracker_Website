@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { Marker, Popup, useMap } from "react-leaflet";
 import L from "leaflet";
 import icon from "/icon-location.svg";
@@ -14,7 +13,7 @@ const MarkersPosition = ({ address }) => {
   const position = (address.location && [
     address.location.lat,
     address.location.lng,
-  ]) || [51.505, -0.09];
+  ]) || [32.69922, -117.11281];
   useEffect(() => {
     map.flyTo(position, 13, {
       animate: true,
@@ -23,9 +22,7 @@ const MarkersPosition = ({ address }) => {
   return (
     <>
       <Marker icon={customIcon} position={position}>
-        <Popup>
-          A pretty CSS3 popup. <br /> Easily customizable.
-        </Popup>
+        <Popup>{address.isp}</Popup>
       </Marker>
     </>
   );
