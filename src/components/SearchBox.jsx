@@ -26,7 +26,7 @@ const SearchBox = ({ handleSubmit, ipAddress, setIpAddress }) => {
       >
         <input
           type="text"
-          placeholder="Search for any IP address or domain"
+          placeholder="Search for any IP address"
           className="
         w-full h-12 rounded-s-lg px-6 outline-none text-lg
         "
